@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+.text {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+    border: 0px;
+    font-family: fantasy;
+    color: deeppink;
+    text-align: center;
+    pointer-events: none;
+    user-select: none;
+}
+
+.text2 {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    border: 0px;
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    pointer-events: none;
+    user-select: none;
+}
+
+div {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: deeppink;
+    position: absolute;
+}
