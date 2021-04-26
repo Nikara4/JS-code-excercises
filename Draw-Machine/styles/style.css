@@ -1,0 +1,32 @@
+html {
+  font-family: arial;
+  background-color: burlywood;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: forestgreen;
+  border: 5px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #000;
+  color: white;
+}
+
+div {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: forestgreen;
+  margin: 10px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
