@@ -1,5 +1,5 @@
 # JS-code-excercises
-> A repo for my excercise coding in JavaScript. You can see the results on CodePen site, the links to each exercise is below. 
+> A repo for my excercise coding in HTML5, CSS2 and JavaScript. You can see the results on CodePen site, the links to each exercise is below. 
 
 # CodePen links & description
 
