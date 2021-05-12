@@ -103,7 +103,7 @@ div.image:nth-of-type(10) {
 div.action:nth-of-type(10) {
     top: 13vh;
     left: 134vh;
-    transition: var(--transitionDelay);
+    transition: 1s .5s;
 }
 
 div.action:nth-of-type(10) img {
