@@ -1,5 +1,7 @@
 :root {
     --topHeight: 6vh;
+    --transitionDelay: 1s .2s;
+    --transitionDelayTwo: 1s .3s;
 }
 
 * {
@@ -25,79 +27,99 @@ div.image {
     left: 0;
 }
 
-div.image:nth-of-type(1) {
+div.action {
+    top: 0vh;
+}
+
+div.action:nth-of-type(1) {
     top: var(--topHeight);
     left: 14vh;
 }
 
-div.image:nth-of-type(1) img {
+div.action:nth-of-type(1) img {
     width: 80%;
     height: 100%;
 }
 
-div.image:nth-of-type(2) {
+div.action:nth-of-type(2) {
     top: calc(var(--topHeight) + 13vh);
 }
 
-div.image:nth-of-type(3) {
+div.action:nth-of-type(3) {
     top: calc(var(--topHeight) + 28vh);
+    transition: 1s .1s;
 }
 
-div.image:nth-of-type(4) {
+div.action:nth-of-type(4) {
     top: 26vh;
     top: calc(var(--topHeight) + 21vh);
+    transition: 1s .3s;
 }
 
-div.image:nth-of-type(5) {
+div.action:nth-of-type(5) {
     top: calc(var(--topHeight) + 33vh);
+    transition: 1s .5s;
 }
 
-div.image:nth-of-type(6) {
+div.action:nth-of-type(6) {
     top: calc(var(--topHeight) + 61vh);
+    transition: 1s .7s;
 }
 
-div.image:nth-of-type(7) {
+div.action:nth-of-type(7) {
     top: 2.5vh;
     left: 15vh;
+    transition: var(--transitionDelay);
 }
 
 div.image:nth-of-type(7) img {
     width: 7%;
 }
 
-div.image:nth-of-type(8) {
+div.action:nth-of-type(8) {
     top: 7vh;
     left: -9vh;
-
+    transition: var(--transitionDelayTwo);
 }
 
-div.image:nth-of-type(8) img {
+div.action:nth-of-type(8) img {
     width: 25%;
 }
 
-div.image:nth-of-type(9) {
+div.action:nth-of-type(9) {
     top: 5vh;
     left: 123vh;
+    transition: var(--transitionDelayTwo);
 }
 
-div.image:nth-of-type(9) img {
+div.action:nth-of-type(9) img {
     width: 40%;
 }
 
 div.image:nth-of-type(10) {
-    top: 13vh;
-    left: 134vh;
+    left: 100vw;
 }
 
-div.image:nth-of-type(10) img {
+div.action:nth-of-type(10) {
+    top: 13vh;
+    left: 134vh;
+    transition: var(--transitionDelay);
+}
+
+div.action:nth-of-type(10) img {
     width: 35%;
 }
 
-div.image:nth-of-type(11) {
+div.click {
+    position: absolute;
     top: 60vh;
     left: 10vh;
 }
 
-div.image:nth-of-type(11) img {
-    width: 5%;
+div.click:hover {
+    cursor: pointer;
+}
+
+div.click img {
+    width: 70%;
 }
