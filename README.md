@@ -31,3 +31,13 @@ Pop-up sequence asking for the users name and later, day (showing the given name
 Controlling the circle with keyboard arrows. The position on X,Y level is shown in the top left corner. 
 
 [live preview](https://codepen.io/nikara4/pen/qBNBwry)
+
+
+
+
+> ### 5. Japanese picture animation
+A simple animation of a Japanese picture coming to life with the click on red symbols. It was mostly done in CSS with a little use of jQuery.
+
+[live preview](https://codepen.io/nikara4/pen/bGqEaaw)
+
+I am still working on responsivness of this project. It is best viewed in debug or full page mode on CodePen. The code may vary on GitHub and CodePen a little.
