@@ -112,7 +112,7 @@ html {
   }
 
   100% {
-    transform: translateX(-15%);
+    transform: translateX(-10%);
     opacity: 0;
   }
 }
