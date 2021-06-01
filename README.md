@@ -41,3 +41,21 @@ A simple animation of a Japanese picture coming to life with the click on red sy
 [live preview](https://codepen.io/nikara4/pen/bGqEaaw)
 
 I am still working on responsivness of this project. It is best viewed in debug or full page mode on CodePen. The code may vary on GitHub and CodePen a little.
+
+
+
+
+> ### 6. Animated slider | Know the team
+An animated slider with time intervals. The projects consist of one set of informations in html structure, which is later changed in JavaScript code.
+
+[live preview](https://codepen.io/nikara4/pen/OJpzzEG)
+
+Unfortunately, animation and the function in JS may sometimes not be synchronized, although they are set to the same time period. I will try to resolve the issue with more JavaScript knowledge in the future.
+
+
+
+
+> ### 7. Moon Agency | Scroll Animation Effects
+description in progress
+
+[live preview](https://codepen.io/nikara4/pen/ExWbJjZ)
