@@ -7,12 +7,12 @@
 body {
     font-family: "Maven Pro", sans-serif;
     background-color: #fffef2;
-    /*   overflow: hidden; */
+    overflow: hidden;
 }
 
 .gallery {
     position: relative;
-    min-height: 100vh;
+    min-height: 96vh;
 }
 
 .gallery .title {
@@ -49,6 +49,7 @@ body {
     overflow: hidden;
     flex-basis: calc(50% - 20px);
     margin: 0 10px;
+
 }
 
 img {
@@ -59,9 +60,30 @@ img {
     max-width: 100%;
     max-height: 100%;
     transition: 0.5s;
+    box-shadow: 0 0 3px 3px #ddd;
 }
 
 img:hover {
     max-width: 110%;
     max-height: 110%;
+}
+
+footer {
+    height: 4vh;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 4vh;
+}
+
+footer a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    color: #bbb;
+}
+
+footer a:hover {
+    color: #fff;
 }
