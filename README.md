@@ -59,3 +59,11 @@ _Unfortunately, animation and the function in JS may sometimes not be synchroniz
 A simple page with animated sections and structure elemnents sliding from the side or showing up as you scroll. _The page is fictional._
 
 [live preview](https://codepen.io/nikara4/pen/ExWbJjZ)
+
+
+
+---
+> ### 8. Pop-up gallery with Lightbox
+A one page for a photo gallery with pop-up using Lightbox library. This project will be later expanded into a full website project with more pictures and a sample photographer shop.  
+
+_Unfortunately, I was unable to implement Lightbox library fully into CodePen and the preview is not available. I will provide and update if this changes._
