@@ -1,0 +1,49 @@
+div.text {
+    font-family: 'Roboto Slab', serif;
+    max-width: 50%;
+    margin: 50px auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.cursor {
+    opacity: 0;
+    transition: .2s;
+}
+
+
+.cursor.active {
+    opacity: 1;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin: 30px 0;
+    font-size: 50px;
+}
+
+input {
+    display: block;
+    margin: 20px auto;
+    width: 25%;
+    height: 50px;
+    padding: 5px;
+    color: #47474A;
+    font-size: 14px;
+}
+
+button {
+    background-color: white;
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    margin: 20px auto;
+    width: 10%;
+    height: 50px;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+<!-- 
+1. stworzyć plik index.html i strukturę dokumentu
+2. stworzyć przycisk w html
+3. ostylować przycisk i kwadraty, które będę tworzone
+JAVASCRIPT
+1. pobrać przycisk i podpiąć do niego nasłuchiwanie na click
+2. zadeklarować funkcję
+3. w funkcji stworzyć element html (div)
+4. dodać div do strony
+5. stworzyć licznik i uzupełnić zawartość elementu div o wartość licznika
+6. za pomocą instrukcji warunkowej stwierdzić czy dany element jest 5, jeśli tak nadać mu inną klasę 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numerowane kwadraty dodawane po kliknięciu</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        button {
+            flex-basis: 100%;
+            display: block;
+            text-align: center;
+            background-color: transparent;
+            border: 4px black dotted;
+            font-size: 60px;
+            text-transform: uppercase;
+            padding: 15px;
+            margin: 0 30%;
+            cursor: pointer;
+        }
+
+        div {
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            line-height: 50px;
+            margin: 10px 5px;
+        }
+
+        .nth-element {
+            border: 2px solid navy;
+            color: black;
+            background-color: transparent;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <button>kliknij</button>
+
+    <script>
+        const button = document.querySelector('button');
+        let number = 1;
+
+        function addNumber() {
+            const newDiv = document.createElement('div');
+            document.body.appendChild(newDiv);
+            newDiv.textContent = number;
+            number++;
+
+            if (newDiv.textContent % 5 === 0) {
+                newDiv.setAttribute('class', 'nth-element');
+            }
+        }
+
+        button.addEventListener('click', addNumber);
+    </script>
+</body>
+
+</html>
