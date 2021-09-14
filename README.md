@@ -67,3 +67,19 @@ A simple page with animated sections and structure elemnents sliding from the si
 A one page for a photo gallery with pop-up using Lightbox library. This project will be later expanded into a full website project with more pictures and a sample photographer shop.  
 
 _Unfortunately, I was unable to implement Lightbox library fully into CodePen and the preview is not available. I will provide and update if this changes._
+
+
+
+---
+> ### 9. Counter button
+A button which counts numbers and shows them on the screen. Each 5th number is shown in a different style.
+
+[live preview](https://codepen.io/nikara4/pen/NWgavPe)
+
+
+
+---
+> ### 10. Typing effect with custom text
+The text in the input will appear on the screen in a 'typing machine' effect.
+
+[live preview](https://codepen.io/nikara4/pen/KKqXqmB)
