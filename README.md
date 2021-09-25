@@ -91,7 +91,6 @@ The text in the input will appear on the screen in a 'typing machine' effect.
 Advanced 'rock, paper, scissors' game with two more elements: lizard and Spock, which are known from "The Big Bang Theory". This project mostly focuses on JS functions, probability and implementation of choice.
 
 [live preview](https://codepen.io/nikara4/pen/oNwoEvE)
-<<<<<<< HEAD
 
 
 
@@ -100,5 +99,3 @@ Advanced 'rock, paper, scissors' game with two more elements: lizard and Spock, 
 The game is a practice exercise after Object Oriented Programming course.
 
 [live preview](https://codepen.io/nikara4/pen/GREYwWr)
-=======
->>>>>>> 41594f3a46232de6f3a3779e1d6a05ff28334e67
