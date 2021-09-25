@@ -28,7 +28,7 @@ Pop-up sequence asking for the users name and later, day (showing the given name
 
 ---
 > ### 4. Keyboard Control
-Controlling the circle with keyboard arrows. The position on X,Y level is shown in the top left corner. 
+Controlling the circle with keyboard arrows. The position on X,Y level is shown in the top left corner. User is supposed to place a bid for the amount from 1 to 100 and check if he/she had won (win is when three colours are the same or different from each other).
 
 [live preview](https://codepen.io/nikara4/pen/qBNBwry)
 
