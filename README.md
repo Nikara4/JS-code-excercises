@@ -96,6 +96,6 @@ Advanced 'rock, paper, scissors' game with two more elements: lizard and Spock, 
 
 ---
 > ### 12. One-armed bandit
-The game is a practice exercise after Object Oriented Programming course.
+The game is a practice exercise after Object Oriented Programming course. The player places a bid from 1 to 100 and checks if the game was won. Win is when all three colours are the same or different from each other.
 
 [live preview](https://codepen.io/nikara4/pen/GREYwWr)
