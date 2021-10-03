@@ -22,9 +22,9 @@ class ToDoApp {
         this.toDoList = [];
         this.inputAdd = document.querySelector('[data-option="add-new"]');
         this.inputSearch = document.querySelector('[data-option="search-app"]');
-        this.btnAdd = document.querySelector('section.add-task .add');
-        this.tasksList = document.querySelector('div.task-list ul.tasks');
-        this.tasksNumber = document.querySelector('div.task-list h3 span');
+        this.btnAdd = document.querySelector('.add-task .add');
+        this.tasksList = document.querySelector('.task-list ul.tasks');
+        this.tasksNumber = document.querySelector('.task-list p span');
 
         this.getInputValue = () => this.inputAdd.value;
         this.btnAdd.addEventListener('click', this.addNewElement.bind(this));
@@ -49,13 +49,13 @@ class ToDoApp {
     searchTasks = (e) => {
         this.searchText = e.target.value.toLowerCase();
         console.log(this.searchText);
-        // let that = this;
-        const filterTasks = this.toDoList.filter(element => {
-            element.toLowerCase().includes(this.searchText);
+        let that = this;
+        const filterTasks = this.toDoList.filter(el => {
+            el.toLowerCase().includes(that.searchText);
         });
 
         this.tasksList.textContent = '';
-        filterTasks.forEach(task => this.tasksList.appendChild(task));
+        filterTasks.forEach(task => that.toDoList.appendChild(task));
         console.log(filterTasks);
     }
 

@@ -6,29 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do App - organize yourself</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="title">
-        <h1>to do app - organize yourself and feel better!</h1>
-    </div>
-    <section class="add-task">
-        <h3>add a task</h3>
-        <input type="text" , data-option="add-new">
-        <button class="add">add to the list</button>
-    </section>
-    <section class="search">
-        <h3>find a task</h3>
-        <input type="text" , data-option="search-app">
-    </section>
+    <div class="wrapper">
+        <div class="title">
+            <h1>To Do App - Organize yourself and feel better!</h1>
+        </div>
 
-    <div class="task-list">
-        <h2>task list</h2>
-        <h3>you have <span>0</span> tasks</h3>
-        <ul class="tasks"></ul>
-    </div>
+        <div class="search">
+            <h3>find a task</h3>
+            <input type="text" , data-option="search-app">
+        </div>
 
+        <div class="task-list">
+            <h3>task list</h3>
+            <p>you have <span>0</span> tasks</p>
+            <ul class="tasks"></ul>
+        </div>
+        <div class="add-task">
+            <h3>add a task</h3>
+            <input type="text" , data-option="add-new">
+            <button class="add">add to the list</button>
+        </div>
+    </div>
     <script src="js/toDoApp.js"></script>
 </body>
 
